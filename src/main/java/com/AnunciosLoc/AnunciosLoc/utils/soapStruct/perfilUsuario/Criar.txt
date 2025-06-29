@@ -1,0 +1,21 @@
+http://localhost:8080/ws/ee.wsdl
+
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+                  xmlns:user="http://user.soap.xml">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <user:UserProfileRequest>
+         <user:valor>
+            <user:nome>EPIL</user:nome>
+            <user:selecionado>true</user:selecionado>
+         </user:valor>
+         <user:valor>
+            <user:nome>IMIL</user:nome>
+            <user:selecionado>false</user:selecionado>
+         </user:valor>
+         <user:userId>3</user:userId>
+      </user:UserProfileRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

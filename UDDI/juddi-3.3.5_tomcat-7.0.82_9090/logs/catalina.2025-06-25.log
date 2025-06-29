@@ -1,0 +1,626 @@
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.82
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 29 2017 12:23:15 UTC
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.82.0
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk8.0.452\jre
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_452-b09
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Azul Systems, Inc.
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1024m
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx1024m
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256M
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStore=truststore.jks
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStorePassword=password
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStore=truststore.jks
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStorePassword=password
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.keyStore=../conf/keystore.jks
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.keyStorePassword=password
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\conf\logging.properties
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\endorsed
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090
+Jun 25, 2025 11:10:04 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\temp
+Jun 25, 2025 11:10:04 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk8.0.452\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python313\Scripts\;C:\Python313\;C:\src\flutter\bin;C:\Program Files\Java\jdk8.0.452\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Azure Data Studio\bin;C:\xampp\php\bin;C:\xampp\php;C:\composer;C:\Program Files\apache-maven-3.9.8\bin;C:\Program Files;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\IBM\SPSS\Statistics\22\JRE\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\src\flutter\bin;C:\Users\hp\AppData\Local\Android\Sdk\platform-tools;C:\Users\hp\AppData\Local\Pub\Cache\bin;C:\firebase-tools;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Azure Data Studio\bin;C:\xampp\php\bin;C:\xampp\php;C:\composer;C:\Program Files\apache-maven-3.9.8\bin;C:\Program Files;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;c:\windows\system32;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\hp\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.4\bin;C:\Program Files\Java\jdk8.0.452;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Gradle\gradle-7.4\bin;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;C:\Users\hp\Downloads\apache-maven-3.9.9\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;.
+Jun 25, 2025 11:10:05 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9090"]
+Jun 25, 2025 11:10:05 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jun 25, 2025 11:10:05 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1595 ms
+Jun 25, 2025 11:10:05 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 25, 2025 11:10:05 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.82
+Jun 25, 2025 11:10:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\docs
+Jun 25, 2025 11:10:07 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:10:07 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [312] milliseconds.
+Jun 25, 2025 11:10:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\docs has finished in 2,010 ms
+Jun 25, 2025 11:10:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\examples
+Jun 25, 2025 11:10:08 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:10:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\examples has finished in 1,389 ms
+Jun 25, 2025 11:10:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\host-manager
+Jun 25, 2025 11:10:09 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:10:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\host-manager has finished in 683 ms
+Jun 25, 2025 11:10:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddi-gui
+Jun 25, 2025 11:10:12 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:10:12 AM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: juddi-gui startup
+Jun 25, 2025 11:10:12 AM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Attempting to generate 256 bit AES key
+Jun 25, 2025 11:10:12 AM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Generation of 256 bit AES key successful
+Jun 25, 2025 11:10:12 AM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Storing key to C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddi-gui\META-INF\config.properties
+Jun 25, 2025 11:10:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddi-gui has finished in 3,368 ms
+Jun 25, 2025 11:10:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3
+Jun 25, 2025 11:10:16 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:10:29 AM org.apache.cxf.bus.spring.OldSpringSupport logWarning
+WARNING: Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+Jun 25, 2025 11:10:32 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDIInquiryService from class org.uddi.v3_service.UDDIInquiryPortType
+Jun 25, 2025 11:10:33 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /inquiry
+Jun 25, 2025 11:10:33 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDIPublicationService from class org.uddi.v3_service.UDDIPublicationPortType
+Jun 25, 2025 11:10:33 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /publish
+Jun 25, 2025 11:10:33 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDISecurityService from class org.uddi.v3_service.UDDISecurityPortType
+Jun 25, 2025 11:10:33 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /security
+Jun 25, 2025 11:10:33 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionService from class org.uddi.v3_service.UDDISubscriptionPortType
+Jun 25, 2025 11:10:33 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /subscription
+Jun 25, 2025 11:10:33 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionListenerService from class org.uddi.v3_service.UDDISubscriptionListenerPortType
+Jun 25, 2025 11:10:34 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /subscription-listener
+Jun 25, 2025 11:10:34 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:v3_service}UDDICustodyTransferService from class org.uddi.v3_service.UDDICustodyTransferPortType
+Jun 25, 2025 11:10:34 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /custody-transfer
+Jun 25, 2025 11:10:34 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetValidationImplService from class org.uddi.v3_service.UDDIValueSetValidationPortType
+Jun 25, 2025 11:10:34 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /valueset-validation
+Jun 25, 2025 11:10:34 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetCachingImplService from class org.uddi.v3_service.UDDIValueSetCachingPortType
+Jun 25, 2025 11:10:34 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /valueset-caching
+Jun 25, 2025 11:10:34 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:inquiry_v2}Inquire from class org.uddi.v2_service.Inquire
+Jun 25, 2025 11:10:34 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /inquiryv2
+Jun 25, 2025 11:10:34 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:publication_v2}Publish from class org.uddi.v2_service.Publish
+Jun 25, 2025 11:10:34 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /publishv2
+Jun 25, 2025 11:10:34 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromWSDL
+INFO: Creating Service {urn:juddi-apache-org:v3_service}JUDDIApiService from WSDL: classpath:/juddi_api_v1.wsdl
+Jun 25, 2025 11:10:35 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /juddi-api
+Jun 25, 2025 11:10:35 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /inquiryRest
+Jun 25, 2025 11:10:35 AM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: juddi-admin gui startup
+Jun 25, 2025 11:10:35 AM org.apache.juddi.adminconsole.StartupServlet generateKey
+INFO: Attempting to generate 256 bit AES key
+Jun 25, 2025 11:10:35 AM org.apache.juddi.adminconsole.StartupServlet generateKey
+INFO: Generation of 256 bit AES key successful
+Jun 25, 2025 11:10:36 AM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Storing key to C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3\WEB-INF\config.properties
+Jun 25, 2025 11:10:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3 has finished in 23,108 ms
+Jun 25, 2025 11:10:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3replication
+Jun 25, 2025 11:11:09 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:11:15 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDI_Replication_PortType from class org.uddi.v3_service.UDDIReplicationPortType
+Jun 25, 2025 11:11:17 AM org.apache.cxf.bus.spring.OldSpringSupport logWarning
+WARNING: Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+Jun 25, 2025 11:11:17 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /replication
+Jun 25, 2025 11:11:17 AM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: juddi-admin gui startup
+Jun 25, 2025 11:11:17 AM org.apache.juddi.adminconsole.StartupServlet generateKey
+INFO: Attempting to generate 256 bit AES key
+Jun 25, 2025 11:11:17 AM org.apache.juddi.adminconsole.StartupServlet generateKey
+INFO: Generation of 256 bit AES key successful
+Jun 25, 2025 11:11:17 AM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Storing key to C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3replication\WEB-INF\config.properties
+Jun 25, 2025 11:11:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3replication has finished in 41,728 ms
+Jun 25, 2025 11:11:17 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\manager
+Jun 25, 2025 11:11:18 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:11:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\manager has finished in 702 ms
+Jun 25, 2025 11:11:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\ROOT
+Jun 25, 2025 11:11:19 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:11:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Downloads\juddi-3.3.5_tomcat-7.0.82_9090\webapps\ROOT has finished in 646 ms
+Jun 25, 2025 11:11:19 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9090"]
+Jun 25, 2025 11:11:19 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jun 25, 2025 11:11:19 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 74145 ms
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.82
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 29 2017 12:23:15 UTC
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.82.0
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk8.0.452\jre
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_452-b09
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Azul Systems, Inc.
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1024m
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx1024m
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256M
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStore=truststore.jks
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStorePassword=password
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStore=truststore.jks
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStorePassword=password
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.keyStore=../conf/keystore.jks
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.keyStorePassword=password
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\conf\logging.properties
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\endorsed
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\temp
+Jun 25, 2025 11:16:36 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk8.0.452\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python313\Scripts\;C:\Python313\;C:\src\flutter\bin;C:\Program Files\Java\jdk8.0.452\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Azure Data Studio\bin;C:\xampp\php\bin;C:\xampp\php;C:\composer;C:\Program Files\apache-maven-3.9.8\bin;C:\Program Files;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\IBM\SPSS\Statistics\22\JRE\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\src\flutter\bin;C:\Users\hp\AppData\Local\Android\Sdk\platform-tools;C:\Users\hp\AppData\Local\Pub\Cache\bin;C:\firebase-tools;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Azure Data Studio\bin;C:\xampp\php\bin;C:\xampp\php;C:\composer;C:\Program Files\apache-maven-3.9.8\bin;C:\Program Files;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;c:\windows\system32;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\hp\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.4\bin;C:\Program Files\Java\jdk8.0.452;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Gradle\gradle-7.4\bin;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;C:\Users\hp\Downloads\apache-maven-3.9.9\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;.
+Jun 25, 2025 11:16:36 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9090"]
+Jun 25, 2025 11:16:36 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jun 25, 2025 11:16:36 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1004 ms
+Jun 25, 2025 11:16:37 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 25, 2025 11:16:37 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.82
+Jun 25, 2025 11:16:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\docs
+Jun 25, 2025 11:16:38 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:16:38 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [294] milliseconds.
+Jun 25, 2025 11:16:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\docs has finished in 1,450 ms
+Jun 25, 2025 11:16:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\examples
+Jun 25, 2025 11:16:39 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:16:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\examples has finished in 1,348 ms
+Jun 25, 2025 11:16:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\host-manager
+Jun 25, 2025 11:16:41 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:16:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\host-manager has finished in 1,143 ms
+Jun 25, 2025 11:16:41 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddi-gui
+Jun 25, 2025 11:16:44 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:16:44 AM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: juddi-gui startup
+Jun 25, 2025 11:16:44 AM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Attempting to generate 256 bit AES key
+Jun 25, 2025 11:16:44 AM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Generation of 256 bit AES key successful
+Jun 25, 2025 11:16:44 AM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Storing key to C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddi-gui\META-INF\config.properties
+Jun 25, 2025 11:16:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddi-gui has finished in 3,802 ms
+Jun 25, 2025 11:16:44 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3
+Jun 25, 2025 11:16:49 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:17:05 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDIInquiryService from class org.uddi.v3_service.UDDIInquiryPortType
+Jun 25, 2025 11:17:08 AM org.apache.cxf.bus.spring.OldSpringSupport logWarning
+WARNING: Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+Jun 25, 2025 11:17:08 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /inquiry
+Jun 25, 2025 11:17:08 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDIPublicationService from class org.uddi.v3_service.UDDIPublicationPortType
+Jun 25, 2025 11:17:09 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /publish
+Jun 25, 2025 11:17:09 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDISecurityService from class org.uddi.v3_service.UDDISecurityPortType
+Jun 25, 2025 11:17:09 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /security
+Jun 25, 2025 11:17:09 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionService from class org.uddi.v3_service.UDDISubscriptionPortType
+Jun 25, 2025 11:17:09 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /subscription
+Jun 25, 2025 11:17:09 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionListenerService from class org.uddi.v3_service.UDDISubscriptionListenerPortType
+Jun 25, 2025 11:17:10 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /subscription-listener
+Jun 25, 2025 11:17:10 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:v3_service}UDDICustodyTransferService from class org.uddi.v3_service.UDDICustodyTransferPortType
+Jun 25, 2025 11:17:10 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /custody-transfer
+Jun 25, 2025 11:17:10 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetValidationImplService from class org.uddi.v3_service.UDDIValueSetValidationPortType
+Jun 25, 2025 11:17:10 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /valueset-validation
+Jun 25, 2025 11:17:10 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetCachingImplService from class org.uddi.v3_service.UDDIValueSetCachingPortType
+Jun 25, 2025 11:17:10 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /valueset-caching
+Jun 25, 2025 11:17:10 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:inquiry_v2}Inquire from class org.uddi.v2_service.Inquire
+Jun 25, 2025 11:17:10 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /inquiryv2
+Jun 25, 2025 11:17:10 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:publication_v2}Publish from class org.uddi.v2_service.Publish
+Jun 25, 2025 11:17:11 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /publishv2
+Jun 25, 2025 11:17:11 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromWSDL
+INFO: Creating Service {urn:juddi-apache-org:v3_service}JUDDIApiService from WSDL: classpath:/juddi_api_v1.wsdl
+Jun 25, 2025 11:17:12 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /juddi-api
+Jun 25, 2025 11:17:12 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /inquiryRest
+Jun 25, 2025 11:17:12 AM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: juddi-admin gui startup
+Jun 25, 2025 11:17:12 AM org.apache.juddi.adminconsole.StartupServlet generateKey
+INFO: Attempting to generate 256 bit AES key
+Jun 25, 2025 11:17:12 AM org.apache.juddi.adminconsole.StartupServlet generateKey
+INFO: Generation of 256 bit AES key successful
+Jun 25, 2025 11:17:12 AM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Storing key to C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3\WEB-INF\config.properties
+Jun 25, 2025 11:17:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3 has finished in 27,856 ms
+Jun 25, 2025 11:17:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3replication
+Jun 25, 2025 11:17:17 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:17:22 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDI_Replication_PortType from class org.uddi.v3_service.UDDIReplicationPortType
+Jun 25, 2025 11:17:25 AM org.apache.cxf.bus.spring.OldSpringSupport logWarning
+WARNING: Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+Jun 25, 2025 11:17:25 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /replication
+Jun 25, 2025 11:17:25 AM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: juddi-admin gui startup
+Jun 25, 2025 11:17:25 AM org.apache.juddi.adminconsole.StartupServlet generateKey
+INFO: Attempting to generate 256 bit AES key
+Jun 25, 2025 11:17:25 AM org.apache.juddi.adminconsole.StartupServlet generateKey
+INFO: Generation of 256 bit AES key successful
+Jun 25, 2025 11:17:25 AM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Storing key to C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3replication\WEB-INF\config.properties
+Jun 25, 2025 11:17:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3replication has finished in 13,038 ms
+Jun 25, 2025 11:17:25 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\manager
+Jun 25, 2025 11:17:26 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:17:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\manager has finished in 723 ms
+Jun 25, 2025 11:17:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\ROOT
+Jun 25, 2025 11:17:27 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:17:27 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\ROOT has finished in 679 ms
+Jun 25, 2025 11:17:27 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9090"]
+Jun 25, 2025 11:17:27 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jun 25, 2025 11:17:27 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 50295 ms
+Jun 25, 2025 11:32:29 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Jun 25, 2025 11:32:29 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9090"]
+Jun 25, 2025 11:32:29 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Jun 25, 2025 11:32:29 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Jun 25, 2025 11:32:29 AM org.apache.juddi.webconsole.StartupServlet contextDestroyed
+INFO: Cleaning up juddi-gui
+Jun 25, 2025 11:32:29 AM org.apache.juddi.adminconsole.StartupServlet removeKeyFromConfigurationFile
+INFO: Cleaning up juddi-admin
+Jun 25, 2025 11:32:30 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/juddiv3replication] appears to have started a thread named [Timer-3] but has failed to stop it. This is very likely to create a memory leak.
+Jun 25, 2025 11:32:30 AM org.apache.juddi.adminconsole.StartupServlet removeKeyFromConfigurationFile
+INFO: Cleaning up juddi-admin
+Jun 25, 2025 11:32:30 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9090"]
+Jun 25, 2025 11:32:30 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Jun 25, 2025 11:32:30 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9090"]
+Jun 25, 2025 11:32:30 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.82
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 29 2017 12:23:15 UTC
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.82.0
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk8.0.452\jre
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_452-b09
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Azul Systems, Inc.
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms1024m
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx1024m
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:MaxPermSize=512m
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:PermSize=256M
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStore=truststore.jks
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStorePassword=password
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStore=truststore.jks
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.trustStorePassword=password
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.keyStore=../conf/keystore.jks
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djavax.net.ssl.keyStorePassword=password
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\conf\logging.properties
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\endorsed
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\temp
+Jun 25, 2025 11:32:37 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk8.0.452\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python313\Scripts\;C:\Python313\;C:\src\flutter\bin;C:\Program Files\Java\jdk8.0.452\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Azure Data Studio\bin;C:\xampp\php\bin;C:\xampp\php;C:\composer;C:\Program Files\apache-maven-3.9.8\bin;C:\Program Files;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\IBM\SPSS\Statistics\22\JRE\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\src\flutter\bin;C:\Users\hp\AppData\Local\Android\Sdk\platform-tools;C:\Users\hp\AppData\Local\Pub\Cache\bin;C:\firebase-tools;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Azure Data Studio\bin;C:\xampp\php\bin;C:\xampp\php;C:\composer;C:\Program Files\apache-maven-3.9.8\bin;C:\Program Files;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;c:\windows\system32;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\hp\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.4\bin;C:\Program Files\Java\jdk8.0.452;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Gradle\gradle-7.4\bin;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;C:\Users\hp\Downloads\apache-maven-3.9.9\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;.
+Jun 25, 2025 11:32:37 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9090"]
+Jun 25, 2025 11:32:37 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 842 ms
+Jun 25, 2025 11:32:37 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jun 25, 2025 11:32:37 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.82
+Jun 25, 2025 11:32:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\docs
+Jun 25, 2025 11:32:40 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:32:40 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [275] milliseconds.
+Jun 25, 2025 11:32:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\docs has finished in 2,552 ms
+Jun 25, 2025 11:32:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\examples
+Jun 25, 2025 11:32:42 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:32:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\examples has finished in 1,697 ms
+Jun 25, 2025 11:32:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\host-manager
+Jun 25, 2025 11:32:42 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:32:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\host-manager has finished in 646 ms
+Jun 25, 2025 11:32:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddi-gui
+Jun 25, 2025 11:32:45 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:32:45 AM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: juddi-gui startup
+Jun 25, 2025 11:32:45 AM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Attempting to generate 256 bit AES key
+Jun 25, 2025 11:32:46 AM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Generation of 256 bit AES key successful
+Jun 25, 2025 11:32:46 AM org.apache.juddi.webconsole.StartupServlet contextInitialized
+INFO: Storing key to C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddi-gui\META-INF\config.properties
+Jun 25, 2025 11:32:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddi-gui has finished in 3,232 ms
+Jun 25, 2025 11:32:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3
+Jun 25, 2025 11:32:50 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:32:56 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDIInquiryService from class org.uddi.v3_service.UDDIInquiryPortType
+Jun 25, 2025 11:32:57 AM org.apache.cxf.bus.spring.OldSpringSupport logWarning
+WARNING: Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+Jun 25, 2025 11:32:57 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /inquiry
+Jun 25, 2025 11:32:57 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDIPublicationService from class org.uddi.v3_service.UDDIPublicationPortType
+Jun 25, 2025 11:32:58 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /publish
+Jun 25, 2025 11:32:58 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDISecurityService from class org.uddi.v3_service.UDDISecurityPortType
+Jun 25, 2025 11:32:58 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /security
+Jun 25, 2025 11:32:58 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionService from class org.uddi.v3_service.UDDISubscriptionPortType
+Jun 25, 2025 11:32:58 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /subscription
+Jun 25, 2025 11:32:58 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDISubscriptionListenerService from class org.uddi.v3_service.UDDISubscriptionListenerPortType
+Jun 25, 2025 11:32:58 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /subscription-listener
+Jun 25, 2025 11:32:58 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:v3_service}UDDICustodyTransferService from class org.uddi.v3_service.UDDICustodyTransferPortType
+Jun 25, 2025 11:32:59 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /custody-transfer
+Jun 25, 2025 11:32:59 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetValidationImplService from class org.uddi.v3_service.UDDIValueSetValidationPortType
+Jun 25, 2025 11:32:59 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /valueset-validation
+Jun 25, 2025 11:32:59 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {http://impl.api.juddi.apache.org/}UDDIValueSetCachingImplService from class org.uddi.v3_service.UDDIValueSetCachingPortType
+Jun 25, 2025 11:32:59 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /valueset-caching
+Jun 25, 2025 11:32:59 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:inquiry_v2}Inquire from class org.uddi.v2_service.Inquire
+Jun 25, 2025 11:32:59 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /inquiryv2
+Jun 25, 2025 11:32:59 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:publication_v2}Publish from class org.uddi.v2_service.Publish
+Jun 25, 2025 11:33:00 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /publishv2
+Jun 25, 2025 11:33:00 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromWSDL
+INFO: Creating Service {urn:juddi-apache-org:v3_service}JUDDIApiService from WSDL: classpath:/juddi_api_v1.wsdl
+Jun 25, 2025 11:33:00 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /juddi-api
+Jun 25, 2025 11:33:01 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /inquiryRest
+Jun 25, 2025 11:33:01 AM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: juddi-admin gui startup
+Jun 25, 2025 11:33:01 AM org.apache.juddi.adminconsole.StartupServlet generateKey
+INFO: Attempting to generate 256 bit AES key
+Jun 25, 2025 11:33:01 AM org.apache.juddi.adminconsole.StartupServlet generateKey
+INFO: Generation of 256 bit AES key successful
+Jun 25, 2025 11:33:01 AM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Storing key to C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3\WEB-INF\config.properties
+Jun 25, 2025 11:33:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3 has finished in 15,187 ms
+Jun 25, 2025 11:33:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3replication
+Jun 25, 2025 11:33:05 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:33:09 AM org.apache.cxf.service.factory.ReflectionServiceFactoryBean buildServiceFromClass
+INFO: Creating Service {urn:uddi-org:api_v3_portType}UDDI_Replication_PortType from class org.uddi.v3_service.UDDIReplicationPortType
+Jun 25, 2025 11:33:11 AM org.apache.cxf.bus.spring.OldSpringSupport logWarning
+WARNING: Import of META-INF/cxf/cxf-extension-soap.xml has been deprecated and is unnecessary.
+Jun 25, 2025 11:33:11 AM org.apache.cxf.endpoint.ServerImpl initDestination
+INFO: Setting the server's publish address to be /replication
+Jun 25, 2025 11:33:11 AM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: juddi-admin gui startup
+Jun 25, 2025 11:33:11 AM org.apache.juddi.adminconsole.StartupServlet generateKey
+INFO: Attempting to generate 256 bit AES key
+Jun 25, 2025 11:33:11 AM org.apache.juddi.adminconsole.StartupServlet generateKey
+INFO: Generation of 256 bit AES key successful
+Jun 25, 2025 11:33:11 AM org.apache.juddi.adminconsole.StartupServlet contextInitialized
+INFO: Storing key to C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3replication\WEB-INF\config.properties
+Jun 25, 2025 11:33:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\juddiv3replication has finished in 10,986 ms
+Jun 25, 2025 11:33:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\manager
+Jun 25, 2025 11:33:13 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:33:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\manager has finished in 830 ms
+Jun 25, 2025 11:33:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\ROOT
+Jun 25, 2025 11:33:13 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 25, 2025 11:33:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Users\hp\Desktop\UDDI\juddi-3.3.5_tomcat-7.0.82_9090\webapps\ROOT has finished in 742 ms
+Jun 25, 2025 11:33:13 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9090"]
+Jun 25, 2025 11:33:13 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jun 25, 2025 11:33:13 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 36284 ms
+Jun 25, 2025 3:08:16 PM org.apache.cxf.phase.PhaseInterceptorChain doDefaultLogging
+INFO: Application {urn:uddi-org:api_v3_portType}UDDIPublicationService#{urn:uddi-org:api_v3_portType}save_business has thrown exception, unwinding now: org.apache.juddi.v3.error.AuthTokenExpiredException: The authentication token is expired

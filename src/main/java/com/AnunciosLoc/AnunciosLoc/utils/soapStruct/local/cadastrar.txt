@@ -1,0 +1,16 @@
+http://localhost:8080/ws/local.wsdl
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:local="http://local.soap.xml">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <local:AddLocalRequest>
+         <local:Header/>
+         <local:Body>
+            <local:nome>GAMEK</local:nome>
+            <local:latitude>-23.55052</local:latitude>
+            <local:longitude>-46.633308</local:longitude>
+         </local:Body>
+      </local:AddLocalRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

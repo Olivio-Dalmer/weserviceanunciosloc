@@ -1,0 +1,36 @@
+http://localhost:8080/ws/anuncios.wsdl
+
+
+
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:anuncios="http://anuncios.soap.xml">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <anuncios:AddAnuncioRequest>
+         <anuncios:Header>
+            <anuncios:AuthToken>abc123xyz-token</anuncios:AuthToken>
+         </anuncios:Header>
+         <anuncios:Body>
+            <anuncios:titulo>Anúncio Especial</anuncios:titulo>
+            <anuncios:descricao>Anúncio Whitelist COm condicao </anuncios:descricao>
+            <anuncios:dataExpiracao>2025-09-01T10:00:00</anuncios:dataExpiracao>
+            <anuncios:userId>1</anuncios:userId>
+            <anuncios:localId>5</anuncios:localId>
+
+            <!-- Política de entrega -->
+            <anuncios:politicaEntrega>
+               <anuncios:titulo>WHITELIST</anuncios:titulo>
+
+               <!-- Lista de condições -->
+               <anuncios:condicoes>
+                  <anuncios:chave>1</anuncios:chave>
+                  <anuncios:valor>EPIL</anuncios:valor>
+               </anuncios:condicoes>
+							
+            </anuncios:politicaEntrega>
+         </anuncios:Body>
+      </anuncios:AddAnuncioRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

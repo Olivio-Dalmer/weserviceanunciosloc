@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:tns="http://interesses.soap.xml"
+  targetNamespace="http://interesses.soap.xml"
+  elementFormDefault="qualified"
+>
+
+  <!-- Definindo o tipo para o cabeçalho -->
+  <xs:complexType name="HeaderType">
+    <xs:sequence>
+      <!-- Token de sessão -->
+      <xs:element name="AuthToken" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Declaração da requisição -->
+  <xs:element name="AllInteressesRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="tns:HeaderType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+    <xs:element name="AllInteressesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="mensagem" type="xs:string" />
+        <xs:element name="status"   type="xs:boolean" />
+        <xs:element name="interesses"    type="tns:InteressesType" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="InteressesType">
+    <xs:sequence>
+      <xs:element name="id" type="xs:long" />
+      <xs:element name="name" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

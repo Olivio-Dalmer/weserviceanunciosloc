@@ -1,0 +1,14 @@
+http://localhost:8080/ws/ee.wsdl
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:user="http://user.soap.xml">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <user:LoginRequest>
+         <user:email>RAMA@email.com</user:email>
+         <user:password>senha123</user:password>
+      </user:LoginRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+

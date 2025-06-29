@@ -1,0 +1,21 @@
+package com.AnunciosLoc.AnunciosLoc.utils.local;
+
+import com.AnunciosLoc.AnunciosLoc.bd.local.Local;
+import xml.soap.anuncios.LocalType;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class LocalUtil {
+
+    public LocalType mapLocalToLocalType(Local local) {
+        if (local == null) return null;
+
+        LocalType localType = new LocalType();
+        localType.setId(local.getId());
+        localType.setNome(local.getNome());
+        localType.setLatitude(local.getLatitude());
+        localType.setLongitude(local.getLongitude());
+        return localType;
+    }
+}

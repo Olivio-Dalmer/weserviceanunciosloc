@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:tns="http://anuncios.soap.xml" 
+  targetNamespace="http://anuncios.soap.xml" 
+  elementFormDefault="qualified">
+
+  <!-- Cabeçalho -->
+  <xs:complexType name="HeaderType">
+    <xs:sequence>
+      <xs:element name="AuthToken" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+    <!-- ================================================================================== -->
+                   <!-- |_________CADASTRO DO UTILIZADOR_________| --> 
+
+
+  <!-- Condição do perfil -->
+  <xs:complexType name="CondicaoPerfilType">
+    <xs:sequence>
+      <xs:element name="chave" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="valor" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Tipo de política de entrega -->
+  <xs:complexType name="PoliticaEntregaType">
+    <xs:sequence>
+      <xs:element name="titulo"    type="tns:PoliticaTipo"/>
+      <xs:element name="condicoes" type="tns:CondicaoPerfilType" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="PoliticaTipo">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="WHITELIST"/>
+      <xs:enumeration value="BLACKLIST"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+        <!-- *************| Criar Um Anuncio  |************* -->
+
+  <!-- Requisição de adicionar anúncio -->
+  <xs:element name="AddAnuncioRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="tns:HeaderType"/>
+        <xs:element name="Body">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo"        type="xs:string"/>
+              <xs:element name="descricao"     type="xs:string"/>
+              <xs:element name="datainicio"    type="xs:dateTime"/>
+              <xs:element name="dataExpiracao" type="xs:dateTime"/>
+              <xs:element name="userId"        type="xs:long"/>
+              <xs:element name="localId"       type="xs:long"/>
+              <!-- Novo campo: política de entrega -->
+              <xs:element name="politicaEntrega" type="tns:PoliticaEntregaType" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Resposta para adicionar anúncio -->
+  <xs:element name="AddAnuncioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="titulo"        type="xs:string"/>
+        <xs:element name="local"         type="xs:string"/>
+        <xs:element name="dataInicio"    type="xs:string"/>
+        <xs:element name="dataExpiracao" type="xs:string"/>
+        <xs:element name="bloquear"      type="xs:string"/>
+        <xs:element name="id"            type="xs:int"/>
+        <xs:element name="mensagem"      type="xs:string"/>
+        <xs:element name="status"        type="xs:boolean"/>
+        <xs:element name="politicaEntrega" type="tns:PoliticaEntregaType"     minOccurs="0"/>
+        <xs:element name="usuario"       type="tns:UserType"  minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="LocalType"     type="tns:LocalType" minOccurs="0" maxOccurs="unbounded"/>
+        <!-- Novos campos para facilitar acesso direto -->
+        <xs:element name="anuncioId" type="xs:long" minOccurs="0"/>
+        <xs:element name="userId"    type="xs:long" minOccurs="0"/>
+        <xs:element name="localId"   type="xs:long" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Usuário -->
+  <xs:complexType name="UserType">
+    <xs:sequence>
+      <xs:element name="id"        type="xs:long"/>
+      <xs:element name="email"     type="xs:string"/>
+      <xs:element name="username"  type="xs:string"/>
+      <xs:element name="genero"    type="xs:string"/>
+      <xs:element name="datanascimento"    type="xs:string"/>
+      <xs:element name="tipo"      type="xs:int"/>
+      <xs:element name="telefone"  type="xs:string"/>
+      <xs:element name="token"     type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Local -->
+  <xs:complexType name="LocalType">
+    <xs:sequence>
+      <xs:element name="id"        type="xs:long"/>
+      <xs:element name="nome"      type="xs:string"/>
+      <xs:element name="latitude"  type="xs:double"/>
+      <xs:element name="longitude" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Tipo de anúncio para resposta de listagem -->
+  <xs:complexType name="AnuncioType">
+    <xs:sequence>
+      <xs:element name="id"            type="xs:int"/>
+      <xs:element name="titulo"        type="xs:string"/>
+      <xs:element name="dataInicio"    type="xs:string"/>
+      <xs:element name="descricao"     type="xs:string"/>
+      <xs:element name="dataExpiracao" type="xs:string"/>
+      <xs:element name="usuario"       type="tns:UserType"  minOccurs="0"/>
+      <xs:element name="local"         type="tns:LocalType" minOccurs="0"/>
+      <xs:element name="politicaEntrega"     type="tns:PoliticaEntregaType"       minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+        <!-- *************| Listar Anuncios Criados Por Um Utlizador |************* -->
+
+  <!-- Requisição de listar anúncios -->  
+  <xs:element name="AllAnuncioRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="tns:HeaderType"/>
+        <xs:element name="Body">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="userId"    type="xs:long"/>
+              <xs:element name="localId"   type="xs:long"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+    <!-- Declaração da requisição -->
+  <xs:element name="AllAnuncioTodosRequest">
+      <xs:complexType>
+          <xs:sequence>
+              <xs:element name="Header" type="tns:HeaderType"/>
+          </xs:sequence>
+      </xs:complexType>
+  </xs:element>
+
+  <!-- Resposta para listar anúncios -->
+  <xs:element name="AllAnuncioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="mensagem"  type="xs:string"/>
+        <xs:element name="estado"    type="xs:boolean"/>
+        
+        <xs:element name="usuario"   type="tns:UserType"    minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="LocalType" type="tns:LocalType"   minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="anuncios"  type="tns:AnuncioType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+        <!-- *************| Listar Todos os Anuncios |************* -->
+
+      <!-- Requisição para listar anúncios criados -->
+    <xs:element name="ListarAnuncioCriadosRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Header" type="tns:HeaderType"/>
+                <xs:element name="Body">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="userId" type="xs:long"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Resposta com anúncios criados -->
+    <xs:element name="ListarAnuncioCriadosResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="mensagem" type="xs:string"/>
+                <xs:element name="estado"   type="xs:boolean"/>
+
+                <!-- Usuário -->
+                <xs:element name="usuario"  type="tns:UserType" minOccurs="0" maxOccurs="unbounded"/>
+
+                <!-- Lista de anúncios -->
+                <xs:element name="anuncios" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="anuncio" type="tns:AnuncioType" minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <!-- Quantidade total -->
+                <xs:element name="qtdAnuncio" type="xs:long" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+        <!-- *************| Remover Um Anuncio |************* -->
+
+
+  <xs:element name="RemoveAnuncioRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="tns:HeaderType"/>
+        <xs:element name="Body">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id"     type="xs:long"/>
+              <xs:element name="userId" type="xs:long"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="RemoveAnuncioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="mensagem" type="xs:string"/>
+        <xs:element name="status"   type="xs:boolean"/>
+        <xs:element name="id"       type="xs:int"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

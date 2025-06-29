@@ -1,0 +1,16 @@
+http://localhost:8080/ws/local.wsdl
+
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:local="http://local.soap.xml">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <local:AllLocalRequest>
+         <local:Header>
+            <local:authToken>seu-token-aqui</local:authToken>
+         </local:Header>
+      </local:AllLocalRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+

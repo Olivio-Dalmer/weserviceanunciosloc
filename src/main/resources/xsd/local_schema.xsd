@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:tns="http://local.soap.xml"
+  targetNamespace="http://local.soap.xml"
+  elementFormDefault="qualified"
+>
+
+  <!-- Definindo o tipo para o cabeçalho -->
+  <xs:complexType name="HeaderType">
+    <xs:sequence>
+      <!-- Token de sessão -->
+      <xs:element name="AuthToken" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Definição do elemento "local" -->
+  <xs:element name="AddLocalRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="tns:HeaderType" />
+        <xs:element name="Body">
+          <xs:complexType>
+            <xs:sequence>
+              <!-- nome -->
+              <xs:element name="nome"      type="xs:string" />
+              <!-- latitude -->
+              <xs:element name="latitude"  type="xs:double" />
+              <!-- longetude -->
+              <xs:element name="longitude" type="xs:double" />
+              <!-- status -->
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Definição do elemento "user" -->
+  <xs:element name="AddLocalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="tns:HeaderType" />
+        <xs:element name="Body">
+          <xs:complexType>
+            <xs:sequence>
+              <!-- nome -->
+              <xs:element name="nome"      type="xs:string" />
+              <!-- latitude -->
+              <xs:element name="latitude"  type="xs:string" />
+              <!-- longetude -->
+              <xs:element name="longitude" type="xs:string" />
+              <!-- mensagem -->
+              <xs:element name="mensagem"  type="xs:string" />
+              <!-- status -->
+              <xs:element name="status"    type="xs:boolean" />
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Declaração da requisição -->
+  <xs:element name="AllLocalRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="tns:HeaderType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+  <!-- Declaração da requisição -->
+  <xs:element name="GetLocalRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="id" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+    <xs:element name="GetLocalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="mensagem" type="xs:string" />
+        <xs:element name="status"   type="xs:boolean" />
+        <xs:element name="id"        type="xs:long" />
+        <xs:element name="nome"      type="xs:string" />
+        <xs:element name="latitude"  type="xs:double" />
+        <xs:element name="longitude" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="AllLocalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="mensagem" type="xs:string" />
+        <xs:element name="status"   type="xs:boolean" />
+        <xs:element name="local"    type="tns:LocalType" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="LocalType">
+    <xs:sequence>
+      <xs:element name="id"        type="xs:long" />
+      <xs:element name="nome"      type="xs:string" />
+      <xs:element name="latitude"  type="xs:double" />
+      <xs:element name="longitude" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="RemoveLocalRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header" type="tns:HeaderType" />
+        <xs:element name="Body">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:long" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="RemoveLocalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="mensagem" type="xs:string" />
+        <xs:element name="status"   type="xs:boolean" />
+        <xs:element name="id"       type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

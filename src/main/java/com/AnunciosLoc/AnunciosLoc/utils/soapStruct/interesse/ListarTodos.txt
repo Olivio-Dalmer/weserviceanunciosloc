@@ -1,0 +1,15 @@
+http://localhost:8080/ws/interesses.wsdl
+
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:interesses="http://interesses.soap.xml">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <interesses:AllInteressesRequest>
+         <interesses:Header>
+            <interesses:authToken>seu-token-aqui</interesses:authToken>
+         </interesses:Header>
+      </interesses:AllInteressesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

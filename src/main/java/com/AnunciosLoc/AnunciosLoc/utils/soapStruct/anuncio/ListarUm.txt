@@ -1,0 +1,14 @@
+http://localhost:8080/ws/anuncios.wsdl
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:anuncios="http://anuncios.soap.xml">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <anuncios:GetAnuncioRequest>
+         <anuncios:Header/>
+         <anuncios:Body>
+            <anuncios:anucioId>4</anuncios:anucioId>
+            <anuncios:userId>3</anuncios:userId>	
+         </anuncios:Body>
+      </anuncios:GetAnuncioRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
